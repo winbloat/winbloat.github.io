@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    color: #555;
+}
+pre{
+    margin-bottom: 0;
+}
+#container{
+    width: 800px;
+    background-color: #eee;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title{
+    padding: 20px;
+    border-bottom: 1px solid #555;
+}
+#content{
+    padding: 20px;
+    height: 100%;
+    padding-bottom: 100px;
+}
+h2{
+    font-weight: 400;
+}
+#about{
+    text-align: justify;
+    width: 200px;
+    padding: 10px;
+    float: left;
+    margin-left: 160px;
+    margin-right: 20px;
+}
+#softwarebox{
+    float: left;
+    margin-left: 20px;
+}
+#button{
+    display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+#footer{
+    padding: 5px;
+    bottom: 0px;
+    border-top: 1px solid #555;
+    position: fixed;
+    width: 790px;
+    background-color: #eee;
+}
+a{
+    color: #555;
+    text-decoration: none;
+}
+a:visited{
+    color: #555;
+    text-decoration: none;
+}
+a:hover{
+    color: #555;
+    text-decoration: none;
+}
+@media only screen and (max-width: 799px) {
+    #container{
+        width: auto;
+    }
+    #about{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    #softwarebox{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #button{
+        display: block;
+    }
+    #footer{
+        width: 100%;
+    }
+}
