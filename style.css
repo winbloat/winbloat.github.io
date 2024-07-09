@@ -12,6 +12,7 @@ pre{
 }
 #container{
     width: 800px;
+    height: 100%;
     background-color: #eee;
     margin-left: auto;
     margin-right: auto;
@@ -28,6 +29,13 @@ pre{
 h2{
     font-weight: 400;
 }
+#line{
+    height: 1px;
+    width: auto;
+    border-bottom: 1px solid #555;
+    margin: 20px;
+    visibility: hidden;
+}
 #about{
     text-align: justify;
     width: 200px;
@@ -42,9 +50,11 @@ h2{
 }
 #button{
     display: inline;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
 }
 #footer{
     padding: 5px;
@@ -80,6 +90,16 @@ a:hover{
         float: none;
         margin-left: auto;
         margin-right: auto;
+    }
+    #h2{
+        margin-top: 40px;
+    }
+    #line{
+        height: 1px;
+        width: auto;
+        border-bottom: 1px solid #555;
+        margin: 20px;
+        visibility: visible;
     }
     #button{
         display: block;
